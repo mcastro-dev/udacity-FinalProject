@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#5467D6</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_ripple_default">#FF4081</color>
+    <color name="color_gray">#cccccc</color>
+    <color name="color_gray_light">#e6e6e6</color>
+    <color name="color_gray_lighter">#f2f2f2</color>
+    <color name="color_gray_dark">#999999</color>
+    <color name="color_blue">#2962FF</color>
+    <color name="color_red">#FF1744</color>
+    <color name="color_green">#388E3C</color>
+    <color name="color_orange">#FF9800</color>
+</resources>

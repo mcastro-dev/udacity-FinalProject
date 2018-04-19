@@ -1,0 +1,64 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_size_defult">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="toolbar_height_medium">200dp</dimen>
+    <dimen name="toolbar_height_large">300dp</dimen>
+
+    <dimen name="list_item_height">48dp</dimen>
+    <dimen name="list_item_with_avatar_height">56dp</dimen>
+    <dimen name="list_avatar_size">48dp</dimen>
+
+    <dimen name="spacing_forms_vertical_padding_default">12dp</dimen>
+    <dimen name="spacing_drawable_padding_default">10dp</dimen>
+    <dimen name="spacing_list_item_padding_horizontal">10dp</dimen>
+    <dimen name="spacing_cards_padding_default">16dp</dimen>
+    <dimen name="spacing_cards_margin_default">6dp</dimen>
+
+    <dimen name="margin_tiny">2dp</dimen>
+    <dimen name="margin_smaller">6dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+
+    <dimen name="padding_smallest">6dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+
+    <dimen name="dialog_min_width">300dp</dimen>
+
+    <dimen name="elevation_level_1">1dp</dimen>
+    <dimen name="elevation_level_2">2dp</dimen>
+    <dimen name="elevation_level_3">3dp</dimen>
+    <dimen name="elevation_level_4">4dp</dimen>
+
+    <dimen name="cards_corner_radius_default">2dp</dimen>
+    <dimen name="cards_header_height_small">52dp</dimen>
+    <dimen name="cards_footer_height_small">52dp</dimen>
+    <dimen name="cards_body_height_medium">200dp</dimen>
+    <dimen name="cards_body_height_large">300dp</dimen>
+    <dimen name="cards_body_height_larger">400dp</dimen>
+
+    <dimen name="text_size_huge">30sp</dimen>
+    <dimen name="text_size_medium">24sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_smallest">14sp</dimen>
+
+    <dimen name="button_rounded_corners">6dp</dimen>
+
+    <dimen name="weight_card_width">260dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="EditTextDialogOpenerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/spacing_forms_vertical_padding_default</item>
+        <item name="android:inputType">none</item>
+        <item name="android:focusable">false</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="SettingsItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/ripple_custom</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:drawablePadding">@dimen/spacing_drawable_padding_default</item>
+    </style>
+
+    <style name="BackupItemStyle" parent="SettingsItemStyle"/>
+
+    <style name="StatisticsPeriodButtonStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin_tiny</item>
+        <item name="android:background">@drawable/ripple_custom</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="ExpandedFabsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fab_colorNormal">@color/colorAccent</item>
+        <item name="fab_colorPressed">@color/color_gray</item>
+        <item name="fab_size">mini</item>
+    </style>
+
+</resources>

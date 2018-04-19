@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="simple_datepicker_item_width_default">100dp</dimen>
+    <dimen name="simple_datepicker_item_margin_default">6dp</dimen>
+    <dimen name="simple_datepicker_padding_small">8dp</dimen>
+    <dimen name="simple_datepicker_bottom_buttons_layout_height">56dp</dimen>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:paddingLeft="@dimen/spacing_list_item_padding_horizontal"
+    android:paddingRight="@dimen/spacing_list_item_padding_horizontal"
+    android:background="@drawable/ripple_custom">
+
+    <TextView
+        android:id="@+id/txt_option"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/spacing_drawable_padding_default"/>
+
+</FrameLayout>

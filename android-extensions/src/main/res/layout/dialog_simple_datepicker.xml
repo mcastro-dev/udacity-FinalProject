@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Month-->
+    <LinearLayout
+        android:id="@+id/sdp_layout_month"
+        android:layout_width="@dimen/simple_datepicker_item_width_default"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sdp_btn_add_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+
+        <TextView
+            android:id="@+id/sdp_txt_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/simple_datepicker_item_margin_default"
+            android:gravity="center"
+            android:lines="1"
+            android:ellipsize="end"/>
+
+        <Button
+            android:id="@+id/sdp_btn_subtract_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+    </LinearLayout>
+
+    <!--Year-->
+    <LinearLayout
+        android:id="@+id/sdp_layout_year"
+        android:layout_width="@dimen/simple_datepicker_item_width_default"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/sdp_layout_month"
+        android:layout_toRightOf="@id/sdp_layout_month">
+
+        <Button
+            android:id="@+id/sdp_btn_add_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+
+        <TextView
+            android:id="@+id/sdp_txt_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/simple_datepicker_item_margin_default"
+            android:gravity="center"
+            android:lines="1"
+            android:ellipsize="end"/>
+
+        <Button
+            android:id="@+id/sdp_btn_subtract_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_datepicker_bottom_buttons_layout_height"
+        android:paddingEnd="@dimen/simple_datepicker_padding_small"
+        android:paddingRight="@dimen/simple_datepicker_padding_small"
+        android:paddingStart="@dimen/simple_datepicker_padding_small"
+        android:paddingLeft="@dimen/simple_datepicker_padding_small"
+        android:orientation="horizontal"
+        android:gravity="end|bottom"
+        android:layout_below="@id/sdp_layout_month">
+
+        <Button
+            android:id="@+id/sdp_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sdp_button_background"
+            android:text="@android:string/cancel"/>
+
+        <Button
+            android:id="@+id/sdp_btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sdp_button_background"
+            android:text="@android:string/ok"/>
+    </LinearLayout>
+
+</RelativeLayout>
